@@ -43,10 +43,10 @@
 }
 
 .footer a {
-    color: rgb(245, 224, 168);
+    color: yellow;
 }
 
 .footer a:hover {
-    color: rgb(241, 63, 63);
+    color: rgb(255, 217, 0);
     text-decoration: none;
 }
