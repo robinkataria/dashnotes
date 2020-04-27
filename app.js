@@ -2,6 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const _ = require("lodash");
+const mongoose = require("mongoose");
 
 const app = express();
 app.set("view engine", "ejs");
@@ -17,6 +18,18 @@ const contactContent =
 const posts = [];
 
 // --------- mongoDB ----------
+
+mongoose.connect("mongodb://localhost:27017/postsDB", {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+});
+
+const postSchema = new mongoose.Schema({
+    title: String,
+    post: String,
+});
+
+const Post = mongoose.model("Post", postSchema);
 
 // --------- Routes -----------
 

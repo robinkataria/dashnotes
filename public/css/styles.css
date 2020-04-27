@@ -28,7 +28,7 @@
 }
 
 .footer {
-    position: absolute;
+    position: fixed;
     text-align: center;
     bottom: 0;
     width: 100%;
@@ -40,4 +40,13 @@
     margin: 20px;
     font-size: 14px;
     color: #fff;
+}
+
+.footer a {
+    color: rgb(245, 224, 168);
+}
+
+.footer a:hover {
+    color: rgb(241, 63, 63);
+    text-decoration: none;
 }
