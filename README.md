@@ -1,7 +1,7 @@
 # [Diary Dash](https://diarydash.herokuapp.com/)
 Diary Dash 📝 is your digital diary which stays with you as your shadow, as long as you've access to web! 
 > It is written in NodeJS using EJS, and assisted by mongoDB. <br />
-> Also, hosted on cloud using Heroku. 
+> Besides, hosted on cloud using Heroku. 
 
 ### Installation
 
@@ -26,4 +26,7 @@ Install the dependencies and start the server.
 
 #### How to setup Heroku ?
 > Click [here](https://devcenter.heroku.com/articles/preparing-a-codebase-for-heroku-deployment)
+
+
+<b>Note:</b> This is not the final product. I'm working on the authentication/authorisation, after implementation, user can signup/login to his Diary and keep his personal notes, "personal".
 
