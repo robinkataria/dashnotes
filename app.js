@@ -18,10 +18,14 @@ let posts = [];
 
 // --------- mongoDB ----------
 
-mongoose.connect("mongodb://localhost:27017/blogDB", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-});
+// "mongodb://localhost:27017/blogDB"
+mongoose.connect(
+    `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@projectsdb-xdyx3.mongodb.net/blogDB`,
+    {
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+    }
+);
 
 const postSchema = new mongoose.Schema({
     title: String,
