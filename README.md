@@ -24,7 +24,7 @@ Install the dependencies and start the server.
 - Use Azure: Cosmos DB extention for reading the database.
 - VS Code extentions: Prettier, file-icons, ESLint, Live Server
 
-#### How to setup Heroku ?
+### How to setup Heroku ?
 > Click [here](https://devcenter.heroku.com/articles/preparing-a-codebase-for-heroku-deployment)
 
 
