@@ -25,6 +25,7 @@ Install the dependencies and start the server.
 - VS Code extentions: Prettier, file-icons, ESLint, Live Server
 
 ### How to setup Heroku ?
+
 > Click [here](https://devcenter.heroku.com/articles/preparing-a-codebase-for-heroku-deployment)
 
 
